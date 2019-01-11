@@ -31,6 +31,7 @@ class HolaMundo extends CI_Controller {
 		echo anchor("HolaMundo", "Hola ");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		echo anchor("HolaMundo/adios", "Adios cambios prueba 4");
 =======
 		echo anchor("HolaMundo/adios", "Adios ");
@@ -38,6 +39,9 @@ class HolaMundo extends CI_Controller {
 =======
 		echo anchor("HolaMundo/adios", "Adios ");
 >>>>>>> parent of 61294ac... Prueba 3
+=======
+		echo anchor("HolaMundo/adios", "Adios");
+>>>>>>> parent of 1f76781... Cambios 4
 		echo anchor("HolaMundo/quetal", "Ir a que tal");
 
 		$this->load->view('Menu');
