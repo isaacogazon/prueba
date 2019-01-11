@@ -29,7 +29,11 @@ class HolaMundo extends CI_Controller {
 	public function menu(){
 		$this->load->helper('url_helper');
 		echo anchor("HolaMundo", "Hola ");
+<<<<<<< HEAD
 		echo anchor("HolaMundo/adios", "Adios cambios prueba 4");
+=======
+		echo anchor("HolaMundo/adios", "Adios ");
+>>>>>>> parent of 61294ac... Prueba 3
 		echo anchor("HolaMundo/quetal", "Ir a que tal");
 
 		$this->load->view('Menu');
