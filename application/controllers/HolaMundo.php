@@ -30,7 +30,11 @@ class HolaMundo extends CI_Controller {
 		$this->load->helper('url_helper');
 		echo anchor("HolaMundo", "Hola ");
 <<<<<<< HEAD
+<<<<<<< HEAD
 		echo anchor("HolaMundo/adios", "Adios cambios prueba 4");
+=======
+		echo anchor("HolaMundo/adios", "Adios ");
+>>>>>>> parent of 61294ac... Prueba 3
 =======
 		echo anchor("HolaMundo/adios", "Adios ");
 >>>>>>> parent of 61294ac... Prueba 3
