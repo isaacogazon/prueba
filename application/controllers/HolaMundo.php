@@ -30,7 +30,7 @@ class HolaMundo extends CI_Controller {
 		$this->load->helper('url_helper');
 		echo anchor("HolaMundo", "Hola ");
 
-		echo anchor("HolaMundo/adios", "Adios ultimo cambio");
+		echo anchor("HolaMundo/adios", "Adios sin cambio");
 
 		echo anchor("HolaMundo/adios", "Adios ");
 
